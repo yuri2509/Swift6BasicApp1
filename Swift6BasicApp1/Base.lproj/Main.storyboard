@@ -45,6 +45,9 @@
                                             <rect key="frame" x="132" y="655" width="150" height="150"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" image="tap"/>
+                                            <connections>
+                                                <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CEl-6k-zQT"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </view>
