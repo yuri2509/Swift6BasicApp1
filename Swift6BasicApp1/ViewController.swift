@@ -29,6 +29,12 @@ class ViewController: UIViewController {
         countLabel.text = String(count)
         //String(変数)でString型にすること=キャスト
         
+        if count > 5 {
+            
+            imageView.image = UIImage(named: "back2")
+            
+        }
+        
     }
     
 }
