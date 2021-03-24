@@ -26,7 +26,8 @@ class ViewController: UIViewController {
     @IBAction func tap(_ sender: Any) {
         
         count = count + 1
-        countLabel.text = count
+        countLabel.text = String(count)
+        //String(変数)でString型にすること=キャスト
         
     }
     
