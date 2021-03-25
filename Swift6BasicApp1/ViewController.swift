@@ -15,6 +15,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var countLabel: UILabel!
     
+    
+    @IBOutlet weak var tapCountLabel: UILabel!
+    
     var count = 0
     
     override func viewDidLoad() {
@@ -33,10 +36,25 @@ class ViewController: UIViewController {
             
             imageView.image = UIImage(named: "back2")
             
-        } else if count > 10 {
+        }
+        
+        if count > 10 {
             
             imageView.image = UIImage(named: "back3")
             
+        }
+        
+        switch count {
+        case 6:
+            tapCountLabel.text = "6です"
+            break
+            
+        case 10:
+            tapCountLabel.text = "6です"
+            break
+            
+        default:
+            tapCountLabel.text = "6でも10でもありません"
         }
         
     }

@@ -61,6 +61,7 @@
                         <outlet property="blurView" destination="UsZ-hT-XrA" id="ErA-la-rJ5"/>
                         <outlet property="countLabel" destination="BLw-AU-0AT" id="xgS-w1-cSA"/>
                         <outlet property="imageView" destination="v6Z-b8-Md7" id="vhg-YR-EcU"/>
+                        <outlet property="tapCountLabel" destination="Fh6-gr-BKd" id="Z1G-pn-XnY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
