@@ -33,6 +33,10 @@ class ViewController: UIViewController {
             
             imageView.image = UIImage(named: "back2")
             
+        } else if count > 10 {
+            
+            imageView.image = UIImage(named: "back3")
+            
         }
         
     }
