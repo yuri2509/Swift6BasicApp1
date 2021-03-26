@@ -50,7 +50,7 @@ class ViewController: UIViewController {
             break
             
         case 10:
-            tapCountLabel.text = "6です"
+            tapCountLabel.text = "10です"
             break
             
         default:
